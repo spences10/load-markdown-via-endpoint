@@ -40,7 +40,7 @@ devDependencies:
     version: 4.0.0(eslint@8.57.0)(svelte@4.0.0)
   marked:
     specifier: ^12.0.0
-    version: 12.0.0
+    version: 12.0.1
   postcss:
     specifier: ^8.4.14
     version: 8.4.35
@@ -1827,8 +1827,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /marked@12.0.0:
-    resolution: {integrity: sha512-Vkwtq9rLqXryZnWaQc86+FHLC6tr/fycMfYAhiOIXkrNmeGAyhSxjqu0Rs1i0bBqw5u0S7+lV9fdH2ZSVaoa0w==}
+  /marked@12.0.1:
+    resolution: {integrity: sha512-Y1/V2yafOcOdWQCX0XpAKXzDakPOpn6U0YLxTJs3cww6VxOzZV1BTOOYWLvH3gX38cq+iLwljHHTnMtlDfg01Q==}
     engines: {node: '>= 18'}
     hasBin: true
     dev: true
