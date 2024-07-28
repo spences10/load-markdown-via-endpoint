@@ -43,7 +43,7 @@ importers:
         version: 4.0.0(eslint@9.8.0)(svelte@4.2.18)
       marked:
         specifier: ^13.0.0
-        version: 13.0.2
+        version: 13.0.3
       postcss:
         specifier: ^8.4.14
         version: 8.4.39
@@ -690,6 +690,15 @@ packages:
       supports-color:
         optional: true
 
+  debug@4.3.6:
+    resolution: {integrity: sha512-O/09Bd4Z1fBrU4VzkhFqVgpPzaGbw6Sm9FEkBT1A/YBXQFGuuSxa1dN2nxgxS34JmKXqYx8CZAwEVoJFImUXIg==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+
   deep-eql@5.0.2:
     resolution: {integrity: sha512-h5k/5U50IJJFpzfL6nO9jaaumfjO/f2NjK/oYB2Djzm4p9L+3T9qWpZqZ2hAbLPuuYq9wrU08WQyBTL5GbPk5Q==}
     engines: {node: '>=6'}
@@ -1052,8 +1061,8 @@ packages:
   magic-string@0.30.10:
     resolution: {integrity: sha512-iIRwTIf0QKV3UAnYK4PU8uiEc4SRh5jX0mwpIwETPpHdhVM4f53RSwS/vXvN1JhGX+Cs7B8qIq3d6AH49O5fAQ==}
 
-  marked@13.0.2:
-    resolution: {integrity: sha512-J6CPjP8pS5sgrRqxVRvkCIkZ6MFdRIjDkwUwgJ9nL2fbmM6qGQeB2C16hi8Cc9BOzj6xXzy0jyi0iPIfnMHYzA==}
+  marked@13.0.3:
+    resolution: {integrity: sha512-rqRix3/TWzE9rIoFGIn8JmsVfhiuC8VIQ8IdX5TfzmeBucdY05/0UlzKaw0eVtpcN/OdVFpBk7CjKGo9iHJ/zA==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -1945,7 +1954,7 @@ snapshots:
   '@sveltejs/vite-plugin-svelte-inspector@2.1.0(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.18)(vite@5.3.4))(svelte@4.2.18)(vite@5.3.4)':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 3.1.0(svelte@4.2.18)(vite@5.3.4)
-      debug: 4.3.5
+      debug: 4.3.6
       svelte: 4.2.18
       vite: 5.3.4
     transitivePeerDependencies:
@@ -1954,7 +1963,7 @@ snapshots:
   '@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.18)(vite@5.3.4)':
     dependencies:
       '@sveltejs/vite-plugin-svelte-inspector': 2.1.0(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.18)(vite@5.3.4))(svelte@4.2.18)(vite@5.3.4)
-      debug: 4.3.5
+      debug: 4.3.6
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.10
@@ -2262,6 +2271,10 @@ snapshots:
       - postcss
 
   debug@4.3.5:
+    dependencies:
+      ms: 2.1.2
+
+  debug@4.3.6:
     dependencies:
       ms: 2.1.2
 
@@ -2635,7 +2648,7 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  marked@13.0.2: {}
+  marked@13.0.3: {}
 
   mdn-data@2.0.30: {}
 
