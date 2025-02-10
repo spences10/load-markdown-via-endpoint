@@ -43,7 +43,7 @@ importers:
         version: 4.0.0(eslint@9.19.0(jiti@1.21.6))(svelte@4.2.19)
       marked:
         specifier: ^15.0.6
-        version: 15.0.6
+        version: 15.0.7
       postcss:
         specifier: ^8.5.1
         version: 8.5.1
@@ -1055,8 +1055,8 @@ packages:
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
 
-  marked@15.0.6:
-    resolution: {integrity: sha512-Y07CUOE+HQXbVDCGl3LXggqJDbXDP2pArc2C1N1RRMN0ONiShoSsIInMd5Gsxupe7fKLpgimTV+HOJ9r7bA+pg==}
+  marked@15.0.7:
+    resolution: {integrity: sha512-dgLIeKGLx5FwziAnsk4ONoGwHwGPJzselimvlVskE9XLN4Orv9u2VA3GWw/lYUqjfA0rUT/6fqKwfZJapP9BEg==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -1550,8 +1550,8 @@ packages:
       yaml:
         optional: true
 
-  vitefu@1.0.4:
-    resolution: {integrity: sha512-y6zEE3PQf6uu/Mt6DTJ9ih+kyJLr4XcSgHR2zUkM8SWDhuixEJxfJ6CZGMHh1Ec3vPLoEA0IHU5oWzVqw8ulow==}
+  vitefu@1.0.5:
+    resolution: {integrity: sha512-h4Vflt9gxODPFNGPwp4zAMZRpZR7eslzwH2c5hn5kNZ5rhnKyRJ50U+yGCdc2IRaBs8O4haIgLNGrV5CrpMsCA==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
     peerDependenciesMeta:
@@ -1900,7 +1900,7 @@ snapshots:
       magic-string: 0.30.17
       svelte: 4.2.19
       vite: 6.0.11(jiti@1.21.6)(yaml@2.6.1)
-      vitefu: 1.0.4(vite@6.0.11(jiti@1.21.6)(yaml@2.6.1))
+      vitefu: 1.0.5(vite@6.0.11(jiti@1.21.6)(yaml@2.6.1))
     transitivePeerDependencies:
       - supports-color
 
@@ -2522,7 +2522,7 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  marked@15.0.6: {}
+  marked@15.0.7: {}
 
   mdn-data@2.0.30: {}
 
@@ -2956,7 +2956,7 @@ snapshots:
       jiti: 1.21.6
       yaml: 2.6.1
 
-  vitefu@1.0.4(vite@6.0.11(jiti@1.21.6)(yaml@2.6.1)):
+  vitefu@1.0.5(vite@6.0.11(jiti@1.21.6)(yaml@2.6.1)):
     optionalDependencies:
       vite: 6.0.11(jiti@1.21.6)(yaml@2.6.1)
 
