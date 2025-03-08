@@ -21,7 +21,7 @@ export const GET: RequestHandler = async ({ url }) => {
 
 	return new Response(html, {
 		headers: {
-			'content-type': 'text/html'
-		}
+			'content-type': 'text/html',
+		},
 	});
 };
